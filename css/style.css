@@ -1,0 +1,310 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  list-style: none;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin-inline: auto;
+}
+
+#header {
+  padding-block: 20px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: rgba(23, 58, 86, 1);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: rgba(34, 52, 61, 1);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.header .sign-in {
+  color: rgba(23, 58, 86, 1);
+  border: 1px solid #d0d0d0;
+  margin-right: 15px;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.sign-up {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  background: rgba(2, 137, 122, 1);
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+#work {
+  padding-block: 50px;
+}
+.work {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.work-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.work h1 {
+  width: 400px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.work p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 400px;
+}
+
+.work button {
+  width: 175px;
+  height: 50px;
+  background-color: rgba(2, 137, 122, 1);
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+}
+
+.title-2 {
+  display: flex;
+  justify-content: center;
+  padding-block: 50px;
+}
+
+.title-2 h1 {
+  padding-block: 50px;
+  font-size: 30px;
+  font-weight: 700;
+  width: 500px;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+
+.box h1 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.box p {
+  width: 250px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.backraund-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  background: rgba(2, 137, 122, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.backraund-icon-2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  background: rgba(77, 141, 255, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.backraund-icon-3 {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  background: rgba(116, 10, 118, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.backraund-icon-4 {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  background: rgba(240, 62, 61, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  padding-block: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.button button {
+  width: 175px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  background: rgba(2, 137, 122, 1);
+  border-radius: 5px;
+  border: none;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content h2 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.content h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.content p {
+  font-size: 16px;
+  font-weight: 400;
+  width: 460px;
+}
+
+.content ul li {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.content-text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#support {
+  padding-block: 70px;
+}
+
+.support {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.support h2 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.support h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.support p {
+  width: 460px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.support ul li {
+  margin: 20px 0 20px 0;
+  font-size: 16px;
+  font-weight: 400;
+  width: 365px;
+}
+
+.support-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#collaborative {
+  padding-block: 70px;
+}
+
+.collaborative {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.collaborative-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.collaborative h2 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.collaborative h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.collaborative p {
+  width: 460px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.collaborative ul {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.collaborative ul li {
+  margin: 20px 0 20px 0;
+}
